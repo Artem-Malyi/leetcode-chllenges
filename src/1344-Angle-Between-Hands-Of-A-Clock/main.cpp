@@ -32,5 +32,5 @@ int main() {
 
     testAngleClock();
 
-	return 0;
+    return 0;
 }

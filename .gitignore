@@ -1,0 +1,5 @@
+*.user
+**/.vs
+.gitignore
+**/bin
+**/tmp
