@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "challenge1", "..\src\challenge1\challenge1.vcxproj", "{8B256A8C-1AFD-4A97-9FFD-6B6266621857}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1344-Angle-Between-Hands-Of-A-Clock", "..\src\1344-Angle-Between-Hands-Of-A-Clock\1344-Angle-Between-Hands-Of-A-Clock.vcxproj", "{3F238F37-FABD-4F7B-8ACE-D28526F8B93E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +17,10 @@ Global
 		{8B256A8C-1AFD-4A97-9FFD-6B6266621857}.Debug|x64.Build.0 = Debug|x64
 		{8B256A8C-1AFD-4A97-9FFD-6B6266621857}.Release|x64.ActiveCfg = Release|x64
 		{8B256A8C-1AFD-4A97-9FFD-6B6266621857}.Release|x64.Build.0 = Release|x64
+		{3F238F37-FABD-4F7B-8ACE-D28526F8B93E}.Debug|x64.ActiveCfg = Debug|x64
+		{3F238F37-FABD-4F7B-8ACE-D28526F8B93E}.Debug|x64.Build.0 = Debug|x64
+		{3F238F37-FABD-4F7B-8ACE-D28526F8B93E}.Release|x64.ActiveCfg = Release|x64
+		{3F238F37-FABD-4F7B-8ACE-D28526F8B93E}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
