@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "challenge1", "..\src\challe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1344-Angle-Between-Hands-Of-A-Clock", "..\src\1344-Angle-Between-Hands-Of-A-Clock\1344-Angle-Between-Hands-Of-A-Clock.vcxproj", "{3F238F37-FABD-4F7B-8ACE-D28526F8B93E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "151-Reverse-Words-In-A-String", "..\src\151-Reverse-Words-In-A-String\151-Reverse-Words-In-A-String.vcxproj", "{62B4A0CE-6ACF-45CA-954C-AE2BC68DE9D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,10 @@ Global
 		{3F238F37-FABD-4F7B-8ACE-D28526F8B93E}.Debug|x64.Build.0 = Debug|x64
 		{3F238F37-FABD-4F7B-8ACE-D28526F8B93E}.Release|x64.ActiveCfg = Release|x64
 		{3F238F37-FABD-4F7B-8ACE-D28526F8B93E}.Release|x64.Build.0 = Release|x64
+		{62B4A0CE-6ACF-45CA-954C-AE2BC68DE9D3}.Debug|x64.ActiveCfg = Debug|x64
+		{62B4A0CE-6ACF-45CA-954C-AE2BC68DE9D3}.Debug|x64.Build.0 = Debug|x64
+		{62B4A0CE-6ACF-45CA-954C-AE2BC68DE9D3}.Release|x64.ActiveCfg = Release|x64
+		{62B4A0CE-6ACF-45CA-954C-AE2BC68DE9D3}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

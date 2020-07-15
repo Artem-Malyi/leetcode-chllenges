@@ -1,10 +1,9 @@
 #include <Windows.h>
 
+#include <cassert>
 #include <iostream>
 #include <string>
 #include <vector>
-
-#include <cassert>
 
 using namespace std;
 
