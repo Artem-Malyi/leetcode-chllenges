@@ -23,8 +23,11 @@ double myPowInternal(double x, int n) { // 2 -2
 }
 
 double myPow(double x, int n) {
-    double m = abs(n);
-    if (n == INT_MIN) {
+    int m = abs(n);
+    // abs() for INT_MIN performs neg 0x80000000, which overflows with carry flag 
+    // and the result is again the same negative value, so this edge case needs the fix:
+    // additionally, absolute value of INT_MIN is 1 bigger than INT_MAX
+    if (n == INT_MIN) { 
         m = -m;
         m -= 1;
     }
@@ -40,7 +43,9 @@ double myPow(double x, int n) {
 void testMyPow() {
     assert(8 == myPow(2, 3));
     assert(0 == myPow(2.00000, -2147483648));
-    assert(0 == myPow(-22.00000, -2147483648));
+    assert(0 == myPow(-22.00000, -2147483648)); // INT_MIN
+    assert(0 == myPow(-22.00000, -2147483647));
+    assert(std::isinf(myPow(-22.00000, 2147483647))); // INT_MAX
     assert(std::isinf(myPow(15.00000, 2147483647)));
 }
 
