@@ -15,12 +15,12 @@ param (
 #
 function convertStringToHexBytesString {
     param (
-	    [Parameter(Mandatory=$true)][string]$originalString
-	)
-	$encoder = [system.Text.Encoding]::UTF8
+        [Parameter(Mandatory=$true)][string]$originalString
+    )
+    $encoder = [system.Text.Encoding]::UTF8
     $stringBytes = $encoder.GetBytes($originalString)
     $newString = $stringBytes.ForEach('ToString', 'X') -join ' '
-	return $newString
+    return $newString
 }
 
 #
@@ -49,6 +49,7 @@ $newGuid = $(New-Guid).Guid
 #
 #Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "904-Fruits-Into-Baskets", "..\src\904-Fruits-Into-Baskets\904-Fruits-Into-Baskets.vcxproj", "{DDC1EF41-050F-4BD5-A74D-9DCC58F0FF75}"
 #EndProject
+
 $solutionFile = $((Get-Item .).FullName + '\leetcode-challenges.sln')
 
 $solutionFileContent = Get-Content $solutionFile
