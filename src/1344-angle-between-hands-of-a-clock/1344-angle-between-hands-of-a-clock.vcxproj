@@ -22,9 +22,9 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{3F238F37-FABD-4F7B-8ACE-D28526F8B93E}</ProjectGuid>
-    <RootNamespace>1344-Angle-Between-Hands-Of-A-Clock</RootNamespace>
+    <RootNamespace>1344-angle-between-hands-of-a-clock</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>1344-Angle-Between-Hands-Of-A-Clock</ProjectName>
+    <ProjectName>1344-angle-between-hands-of-a-clock</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

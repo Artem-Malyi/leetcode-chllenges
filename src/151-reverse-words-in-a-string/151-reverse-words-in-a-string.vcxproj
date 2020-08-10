@@ -22,9 +22,9 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{62B4A0CE-6ACF-45CA-954C-AE2BC68DE9D3}</ProjectGuid>
-    <RootNamespace>151-Reverse-Words-In-A-String</RootNamespace>
+    <RootNamespace>151-reverse-words-in-a-string</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>151-Reverse-Words-In-A-String</ProjectName>
+    <ProjectName>151-reverse-words-in-a-string</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
