@@ -5,15 +5,15 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "challenge1", "..\src\challenge1\challenge1.vcxproj", "{8B256A8C-1AFD-4A97-9FFD-6B6266621857}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1344-Angle-Between-Hands-Of-A-Clock", "..\src\1344-Angle-Between-Hands-Of-A-Clock\1344-Angle-Between-Hands-Of-A-Clock.vcxproj", "{3F238F37-FABD-4F7B-8ACE-D28526F8B93E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1344-angle-between-hands-of-a-clock", "..\src\1344-angle-between-hands-of-a-clock\1344-angle-between-hands-of-a-clock.vcxproj", "{3F238F37-FABD-4F7B-8ACE-D28526F8B93E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "151-Reverse-Words-In-A-String", "..\src\151-Reverse-Words-In-A-String\151-Reverse-Words-In-A-String.vcxproj", "{62B4A0CE-6ACF-45CA-954C-AE2BC68DE9D3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "151-reverse-words-in-a-string", "..\src\151-reverse-words-in-a-string\151-reverse-words-in-a-string.vcxproj", "{62B4A0CE-6ACF-45CA-954C-AE2BC68DE9D3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "50-Pow-X-To-N", "..\src\50-Pow-X-To-N\50-Pow-X-To-N.vcxproj", "{5988F25F-4F40-408D-8634-9A73DAAB46A4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "50-pow-x-to-n", "..\src\50-pow-x-to-n\50-pow-x-to-n.vcxproj", "{5988F25F-4F40-408D-8634-9A73DAAB46A4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "347-Top-K-Frequent-Elements", "..\src\347-Top-K-Frequent-Elements\347-Top-K-Frequent-Elements.vcxproj", "{D6D3EEA8-827C-4900-8B8C-BC520B21CEA9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "347-top-k-frequent-elements", "..\src\347-top-k-frequent-elements\347-top-k-frequent-elements.vcxproj", "{D6D3EEA8-827C-4900-8B8C-BC520B21CEA9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "904-Fruits-Into-Baskets", "..\src\904-Fruits-Into-Baskets\904-Fruits-Into-Baskets.vcxproj", "{DDC1EF41-050F-4BD5-A74D-9DCC58F0FF75}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "904-fruits-into-baskets", "..\src\904-fruits-into-baskets\904-fruits-into-baskets.vcxproj", "{DDC1EF41-050F-4BD5-A74D-9DCC58F0FF75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

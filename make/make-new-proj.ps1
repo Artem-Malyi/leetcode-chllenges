@@ -2,6 +2,13 @@
 # >_ Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
 
 #
+# 0. get new project name from user
+#
+param (
+    [Parameter(Mandatory=$true)][string]$projectName
+)
+
+#
 # convertStringToHexBytesString
 #
 # Utility function for editing the Visual Studio solution file.
@@ -15,13 +22,6 @@ function convertStringToHexBytesString {
     $newString = $stringBytes.ForEach('ToString', 'X') -join ' '
 	return $newString
 }
-
-#
-# 0. get new project name from user
-#
-param (
-    [Parameter(Mandatory=$true)][string]$projectName
-)
 
 #
 # 1. copy sample project to given location
