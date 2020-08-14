@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "904-fruits-into-baskets", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3-longest-substring-without-repeating-characters", "..\src\3-longest-substring-without-repeating-characters\3-longest-substring-without-repeating-characters.vcxproj", "{E67524C9-4F19-4A54-9538-E5B50C415291}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit", "..\src\1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit\1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.vcxproj", "{76425DD2-B00C-4B66-BA84-F181FABC0DD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,10 @@ Global
 		{E67524C9-4F19-4A54-9538-E5B50C415291}.Debug|x64.Build.0 = Debug|x64
 		{E67524C9-4F19-4A54-9538-E5B50C415291}.Release|x64.ActiveCfg = Release|x64
 		{E67524C9-4F19-4A54-9538-E5B50C415291}.Release|x64.Build.0 = Release|x64
+		{76425DD2-B00C-4B66-BA84-F181FABC0DD3}.Debug|x64.ActiveCfg = Debug|x64
+		{76425DD2-B00C-4B66-BA84-F181FABC0DD3}.Debug|x64.Build.0 = Debug|x64
+		{76425DD2-B00C-4B66-BA84-F181FABC0DD3}.Release|x64.ActiveCfg = Release|x64
+		{76425DD2-B00C-4B66-BA84-F181FABC0DD3}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
