@@ -26,11 +26,12 @@ function convertStringToHexBytesString {
 #
 # 1. copy sample project to given location
 #
-$sourceProjectFile = $((Get-Item .).FullName + '\..\src\challenge1\challenge1.vcxproj')
-$sourceCppFile = $((Get-Item .).FullName + '\..\src\challenge1\main.cpp')
+$solutionDir = $PSScriptRoot + '\..'
+$sourceProjectFile = $($solutionDir + '\src\challenge1\challenge1.vcxproj')
+$sourceCppFile = $($solutionDir + '\src\challenge1\main.cpp')
 $destinationProjectFile = $sourceProjectFile -replace 'challenge1', $projectName
 $destinationCppFile = $sourceCppFile -replace 'challenge1', $projectName
-md -Path $('..\src\' + $projectName) -Force
+md -Path $($solutionDir + '\src\' + $projectName) -Force
 cp -Path $sourceProjectFile -Destination $destinationProjectFile
 cp -Path $sourceCppFile -Destination $destinationCppFile
 
@@ -50,7 +51,7 @@ $newGuid = $(New-Guid).Guid
 #Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "904-Fruits-Into-Baskets", "..\src\904-Fruits-Into-Baskets\904-Fruits-Into-Baskets.vcxproj", "{DDC1EF41-050F-4BD5-A74D-9DCC58F0FF75}"
 #EndProject
 
-$solutionFile = $((Get-Item .).FullName + '\leetcode-challenges.sln')
+$solutionFile = $($solutionDir + '\make\leetcode-challenges.sln')
 
 $solutionFileContent = Get-Content $solutionFile
 $allGuids = $solutionFileContent | Select-String -Pattern $guidRegex -AllMatches | Select-Object -ExpandProperty Matches | Select-Object -ExpandProperty Value
@@ -70,10 +71,10 @@ $byteArray = Get-Content $solutionFile -Raw -Encoding Byte
 $byteString = $byteArray.ForEach('ToString', 'X') -join ' '
 
 # Convert search string into a single-line "byte string".
-$searchByteString = ConvertStringToHexBytesString("EndProject`r`nGlobal")
+$searchByteString = convertStringToHexBytesString("EndProject`r`nGlobal")
 
 # Convert newly generated string into a single-line "byte string".
-$newByteString = ConvertStringToHexBytesString($("EndProject`r`n" + $newProjectString + "`r`nEndProject`r`nGlobal"))
+$newByteString = convertStringToHexBytesString($("EndProject`r`n" + $newProjectString + "`r`nEndProject`r`nGlobal"))
 
 # Perform the replacement.
 # Note that since the string is guaranteed to be single-line,
