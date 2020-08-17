@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3-longest-substring-without
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit", "..\src\1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit\1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.vcxproj", "{76425DD2-B00C-4B66-BA84-F181FABC0DD3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "438-find-all-anagrams-in-a-string", "..\src\438-find-all-anagrams-in-a-string\438-find-all-anagrams-in-a-string.vcxproj", "{72070B2B-0422-4135-890D-266B4715BE7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -57,6 +59,10 @@ Global
 		{76425DD2-B00C-4B66-BA84-F181FABC0DD3}.Debug|x64.Build.0 = Debug|x64
 		{76425DD2-B00C-4B66-BA84-F181FABC0DD3}.Release|x64.ActiveCfg = Release|x64
 		{76425DD2-B00C-4B66-BA84-F181FABC0DD3}.Release|x64.Build.0 = Release|x64
+		{72070B2B-0422-4135-890D-266B4715BE7F}.Debug|x64.ActiveCfg = Debug|x64
+		{72070B2B-0422-4135-890D-266B4715BE7F}.Debug|x64.Build.0 = Debug|x64
+		{72070B2B-0422-4135-890D-266B4715BE7F}.Release|x64.ActiveCfg = Release|x64
+		{72070B2B-0422-4135-890D-266B4715BE7F}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
