@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "438-find-all-anagrams-in-a-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "30-substring-with-concatenation-of-all-words", "..\src\30-substring-with-concatenation-of-all-words\30-substring-with-concatenation-of-all-words.vcxproj", "{D2BF367C-94C7-4B30-A2F9-54DE69EBF924}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "76-minimum-window-substring", "..\src\76-minimum-window-substring\76-minimum-window-substring.vcxproj", "{729EE9EE-BE56-44B9-A10E-0518CB53A076}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -69,6 +71,10 @@ Global
 		{D2BF367C-94C7-4B30-A2F9-54DE69EBF924}.Debug|x64.Build.0 = Debug|x64
 		{D2BF367C-94C7-4B30-A2F9-54DE69EBF924}.Release|x64.ActiveCfg = Release|x64
 		{D2BF367C-94C7-4B30-A2F9-54DE69EBF924}.Release|x64.Build.0 = Release|x64
+		{729EE9EE-BE56-44B9-A10E-0518CB53A076}.Debug|x64.ActiveCfg = Debug|x64
+		{729EE9EE-BE56-44B9-A10E-0518CB53A076}.Debug|x64.Build.0 = Debug|x64
+		{729EE9EE-BE56-44B9-A10E-0518CB53A076}.Release|x64.ActiveCfg = Release|x64
+		{729EE9EE-BE56-44B9-A10E-0518CB53A076}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
