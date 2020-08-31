@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "30-substring-with-concatena
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "76-minimum-window-substring", "..\src\76-minimum-window-substring\76-minimum-window-substring.vcxproj", "{729EE9EE-BE56-44B9-A10E-0518CB53A076}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "567-permutation-in-string", "..\src\567-permutation-in-string\567-permutation-in-string.vcxproj", "{DB4B3BFE-E953-447A-B307-67B9231D33E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -75,6 +77,10 @@ Global
 		{729EE9EE-BE56-44B9-A10E-0518CB53A076}.Debug|x64.Build.0 = Debug|x64
 		{729EE9EE-BE56-44B9-A10E-0518CB53A076}.Release|x64.ActiveCfg = Release|x64
 		{729EE9EE-BE56-44B9-A10E-0518CB53A076}.Release|x64.Build.0 = Release|x64
+		{DB4B3BFE-E953-447A-B307-67B9231D33E2}.Debug|x64.ActiveCfg = Debug|x64
+		{DB4B3BFE-E953-447A-B307-67B9231D33E2}.Debug|x64.Build.0 = Debug|x64
+		{DB4B3BFE-E953-447A-B307-67B9231D33E2}.Release|x64.ActiveCfg = Release|x64
+		{DB4B3BFE-E953-447A-B307-67B9231D33E2}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
