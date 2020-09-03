@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "567-permutation-in-string",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "209-minimum-size-subarray-sum", "..\src\209-minimum-size-subarray-sum\209-minimum-size-subarray-sum.vcxproj", "{0D088901-D412-483A-8317-862E869ADA6B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "239-sliding-window-maximum", "..\src\239-sliding-window-maximum\239-sliding-window-maximum.vcxproj", "{AAD4AC76-D486-4F2C-A0E1-68A44F5C80D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -87,6 +89,10 @@ Global
 		{0D088901-D412-483A-8317-862E869ADA6B}.Debug|x64.Build.0 = Debug|x64
 		{0D088901-D412-483A-8317-862E869ADA6B}.Release|x64.ActiveCfg = Release|x64
 		{0D088901-D412-483A-8317-862E869ADA6B}.Release|x64.Build.0 = Release|x64
+		{AAD4AC76-D486-4F2C-A0E1-68A44F5C80D3}.Debug|x64.ActiveCfg = Debug|x64
+		{AAD4AC76-D486-4F2C-A0E1-68A44F5C80D3}.Debug|x64.Build.0 = Debug|x64
+		{AAD4AC76-D486-4F2C-A0E1-68A44F5C80D3}.Release|x64.ActiveCfg = Release|x64
+		{AAD4AC76-D486-4F2C-A0E1-68A44F5C80D3}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
