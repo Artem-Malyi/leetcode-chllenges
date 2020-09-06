@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "209-minimum-size-subarray-s
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "239-sliding-window-maximum", "..\src\239-sliding-window-maximum\239-sliding-window-maximum.vcxproj", "{AAD4AC76-D486-4F2C-A0E1-68A44F5C80D3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "416-partition-equal-subset-sum", "..\src\416-partition-equal-subset-sum\416-partition-equal-subset-sum.vcxproj", "{C3EDE6D5-AC82-4AC4-AAAE-C0D02D3C5DC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -93,6 +95,10 @@ Global
 		{AAD4AC76-D486-4F2C-A0E1-68A44F5C80D3}.Debug|x64.Build.0 = Debug|x64
 		{AAD4AC76-D486-4F2C-A0E1-68A44F5C80D3}.Release|x64.ActiveCfg = Release|x64
 		{AAD4AC76-D486-4F2C-A0E1-68A44F5C80D3}.Release|x64.Build.0 = Release|x64
+		{C3EDE6D5-AC82-4AC4-AAAE-C0D02D3C5DC7}.Debug|x64.ActiveCfg = Debug|x64
+		{C3EDE6D5-AC82-4AC4-AAAE-C0D02D3C5DC7}.Debug|x64.Build.0 = Debug|x64
+		{C3EDE6D5-AC82-4AC4-AAAE-C0D02D3C5DC7}.Release|x64.ActiveCfg = Release|x64
+		{C3EDE6D5-AC82-4AC4-AAAE-C0D02D3C5DC7}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
