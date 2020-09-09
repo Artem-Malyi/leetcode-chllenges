@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "416-partition-equal-subset-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "138-copy-list-with-random-pointer", "..\src\138-copy-list-with-random-pointer\138-copy-list-with-random-pointer.vcxproj", "{F40A2C0A-53DE-46A2-BCFD-171FAF16C41C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5-longest-palindromic-substring", "..\src\5-longest-palindromic-substring\5-longest-palindromic-substring.vcxproj", "{CD3AF35C-92DE-453B-86C0-04E619AB7A60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -105,6 +107,10 @@ Global
 		{F40A2C0A-53DE-46A2-BCFD-171FAF16C41C}.Debug|x64.Build.0 = Debug|x64
 		{F40A2C0A-53DE-46A2-BCFD-171FAF16C41C}.Release|x64.ActiveCfg = Release|x64
 		{F40A2C0A-53DE-46A2-BCFD-171FAF16C41C}.Release|x64.Build.0 = Release|x64
+		{CD3AF35C-92DE-453B-86C0-04E619AB7A60}.Debug|x64.ActiveCfg = Debug|x64
+		{CD3AF35C-92DE-453B-86C0-04E619AB7A60}.Debug|x64.Build.0 = Debug|x64
+		{CD3AF35C-92DE-453B-86C0-04E619AB7A60}.Release|x64.ActiveCfg = Release|x64
+		{CD3AF35C-92DE-453B-86C0-04E619AB7A60}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
