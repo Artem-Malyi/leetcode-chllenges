@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5-longest-palindromic-subst
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "200-number-of-islands", "..\src\200-number-of-islands\200-number-of-islands.vcxproj", "{68714EA9-436A-4A1E-9223-F359877D6FB5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "937-reorder-data-in-log-files", "..\src\937-reorder-data-in-log-files\937-reorder-data-in-log-files.vcxproj", "{0E0F3B54-0936-46BC-9090-43C2602C6239}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -117,6 +119,10 @@ Global
 		{68714EA9-436A-4A1E-9223-F359877D6FB5}.Debug|x64.Build.0 = Debug|x64
 		{68714EA9-436A-4A1E-9223-F359877D6FB5}.Release|x64.ActiveCfg = Release|x64
 		{68714EA9-436A-4A1E-9223-F359877D6FB5}.Release|x64.Build.0 = Release|x64
+		{0E0F3B54-0936-46BC-9090-43C2602C6239}.Debug|x64.ActiveCfg = Debug|x64
+		{0E0F3B54-0936-46BC-9090-43C2602C6239}.Debug|x64.Build.0 = Debug|x64
+		{0E0F3B54-0936-46BC-9090-43C2602C6239}.Release|x64.ActiveCfg = Release|x64
+		{0E0F3B54-0936-46BC-9090-43C2602C6239}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
