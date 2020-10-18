@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "937-reorder-data-in-log-fil
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "977-squares-of-a-sorted-array", "..\src\977-squares-of-a-sorted-array\977-squares-of-a-sorted-array.vcxproj", "{92CAC1D6-87C3-4583-ACD0-86BA550AFC12}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1-two-sum", "..\src\1-two-sum\1-two-sum.vcxproj", "{E2E789C0-DC33-4E83-A257-3EB5C030C501}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -129,6 +131,10 @@ Global
 		{92CAC1D6-87C3-4583-ACD0-86BA550AFC12}.Debug|x64.Build.0 = Debug|x64
 		{92CAC1D6-87C3-4583-ACD0-86BA550AFC12}.Release|x64.ActiveCfg = Release|x64
 		{92CAC1D6-87C3-4583-ACD0-86BA550AFC12}.Release|x64.Build.0 = Release|x64
+		{E2E789C0-DC33-4E83-A257-3EB5C030C501}.Debug|x64.ActiveCfg = Debug|x64
+		{E2E789C0-DC33-4E83-A257-3EB5C030C501}.Debug|x64.Build.0 = Debug|x64
+		{E2E789C0-DC33-4E83-A257-3EB5C030C501}.Release|x64.ActiveCfg = Release|x64
+		{E2E789C0-DC33-4E83-A257-3EB5C030C501}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
