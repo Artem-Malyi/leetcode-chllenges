@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "977-squares-of-a-sorted-arr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1-two-sum", "..\src\1-two-sum\1-two-sum.vcxproj", "{E2E789C0-DC33-4E83-A257-3EB5C030C501}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15-three-sum-to-zero", "..\src\15-three-sum-to-zero\15-three-sum-to-zero.vcxproj", "{ECCABD20-2296-4C1C-B25E-85E5CE2A6DD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -135,6 +137,10 @@ Global
 		{E2E789C0-DC33-4E83-A257-3EB5C030C501}.Debug|x64.Build.0 = Debug|x64
 		{E2E789C0-DC33-4E83-A257-3EB5C030C501}.Release|x64.ActiveCfg = Release|x64
 		{E2E789C0-DC33-4E83-A257-3EB5C030C501}.Release|x64.Build.0 = Release|x64
+		{ECCABD20-2296-4C1C-B25E-85E5CE2A6DD4}.Debug|x64.ActiveCfg = Debug|x64
+		{ECCABD20-2296-4C1C-B25E-85E5CE2A6DD4}.Debug|x64.Build.0 = Debug|x64
+		{ECCABD20-2296-4C1C-B25E-85E5CE2A6DD4}.Release|x64.ActiveCfg = Release|x64
+		{ECCABD20-2296-4C1C-B25E-85E5CE2A6DD4}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
