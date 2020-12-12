@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "42-trapping-rain-water", ".
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "713-subarray-product-less-than-k", "..\src\713-subarray-product-less-than-k\713-subarray-product-less-than-k.vcxproj", "{F83F074F-5689-4597-9B64-8476809F5E72}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18-4sum", "..\src\18-4sum\18-4sum.vcxproj", "{B5963607-8518-4A48-9426-6A83EFD39B26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -153,6 +155,10 @@ Global
 		{F83F074F-5689-4597-9B64-8476809F5E72}.Debug|x64.Build.0 = Debug|x64
 		{F83F074F-5689-4597-9B64-8476809F5E72}.Release|x64.ActiveCfg = Release|x64
 		{F83F074F-5689-4597-9B64-8476809F5E72}.Release|x64.Build.0 = Release|x64
+		{B5963607-8518-4A48-9426-6A83EFD39B26}.Debug|x64.ActiveCfg = Debug|x64
+		{B5963607-8518-4A48-9426-6A83EFD39B26}.Debug|x64.Build.0 = Debug|x64
+		{B5963607-8518-4A48-9426-6A83EFD39B26}.Release|x64.ActiveCfg = Release|x64
+		{B5963607-8518-4A48-9426-6A83EFD39B26}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
