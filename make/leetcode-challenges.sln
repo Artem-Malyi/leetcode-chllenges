@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "844-backspace-string-compar
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1574-shortest-subarray-to-be-removed-to-make-array-sorted", "..\src\1574-shortest-subarray-to-be-removed-to-make-array-sorted\1574-shortest-subarray-to-be-removed-to-make-array-sorted.vcxproj", "{6BCF32EA-F3B5-405C-B62A-B983FC595097}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "142-linked-list-cycle-2", "..\src\142-linked-list-cycle-2\142-linked-list-cycle-2.vcxproj", "{2CBD603F-8ECC-43F6-A68F-C35CC8B87ED9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,10 @@ Global
 		{6BCF32EA-F3B5-405C-B62A-B983FC595097}.Debug|x64.Build.0 = Debug|x64
 		{6BCF32EA-F3B5-405C-B62A-B983FC595097}.Release|x64.ActiveCfg = Release|x64
 		{6BCF32EA-F3B5-405C-B62A-B983FC595097}.Release|x64.Build.0 = Release|x64
+		{2CBD603F-8ECC-43F6-A68F-C35CC8B87ED9}.Debug|x64.ActiveCfg = Debug|x64
+		{2CBD603F-8ECC-43F6-A68F-C35CC8B87ED9}.Debug|x64.Build.0 = Debug|x64
+		{2CBD603F-8ECC-43F6-A68F-C35CC8B87ED9}.Release|x64.ActiveCfg = Release|x64
+		{2CBD603F-8ECC-43F6-A68F-C35CC8B87ED9}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
