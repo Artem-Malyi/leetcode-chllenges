@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "142-linked-list-cycle-2", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "202-happy-number", "..\src\202-happy-number\202-happy-number.vcxproj", "{BBDFFF19-8C7B-4334-8A83-18DECB7A026B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "876-middle-of-the-linked-list", "..\src\876-middle-of-the-linked-list\876-middle-of-the-linked-list.vcxproj", "{2093C62F-1A1D-4ACE-9B86-F838D7C536AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -183,6 +185,10 @@ Global
 		{BBDFFF19-8C7B-4334-8A83-18DECB7A026B}.Debug|x64.Build.0 = Debug|x64
 		{BBDFFF19-8C7B-4334-8A83-18DECB7A026B}.Release|x64.ActiveCfg = Release|x64
 		{BBDFFF19-8C7B-4334-8A83-18DECB7A026B}.Release|x64.Build.0 = Release|x64
+		{2093C62F-1A1D-4ACE-9B86-F838D7C536AE}.Debug|x64.ActiveCfg = Debug|x64
+		{2093C62F-1A1D-4ACE-9B86-F838D7C536AE}.Debug|x64.Build.0 = Debug|x64
+		{2093C62F-1A1D-4ACE-9B86-F838D7C536AE}.Release|x64.ActiveCfg = Release|x64
+		{2093C62F-1A1D-4ACE-9B86-F838D7C536AE}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
