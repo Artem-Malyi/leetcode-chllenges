@@ -64,6 +64,34 @@ ListNode* reverseList(ListNode* head) { // 6 -> 4 -> 2 -> 1 -> nullptr
     return prev;
 }
 
+static void reorder(ListNode* head) { // 2 -> 4 -> 6 -> 8 -> 10 -> 12 -> null
+    if (!head || !head->next)
+        return;
+
+    ListNode* slow = head;
+    ListNode* fast = head;
+    while (fast && fast->next) {
+        slow = slow->next;
+        fast = fast->next->next;
+    }
+
+    ListNode* headSecondHalf = reverseList(slow); // 12 -> 10 -> 8 -> null
+    ListNode* headFirstHalf = head;
+
+    while (headFirstHalf && headSecondHalf) {
+        ListNode* temp = headFirstHalf->next;
+        headFirstHalf->next = headSecondHalf;
+        headFirstHalf = temp;
+
+        temp = headSecondHalf->next;
+        headSecondHalf->next = headFirstHalf;
+        headSecondHalf = temp;
+    }
+
+    if (headFirstHalf)
+        headFirstHalf->next = nullptr;
+}
+
 void testIsPalindrome() {
     ListNode* head = new ListNode(1);
     head->next = new ListNode(2);
@@ -86,9 +114,31 @@ void testIsPalindrome() {
     assert(true == isPalindrome(newList));
 }
 
+void testReorder() {
+    ListNode* head = new ListNode(2);
+    head->next = new ListNode(4);
+    head->next->next = new ListNode(6);
+    head->next->next->next = new ListNode(8);
+    head->next->next->next->next = new ListNode(10);
+    head->next->next->next->next->next = new ListNode(12);
+
+    reorder(head);
+
+    string s;
+    ListNode* it = head;
+    while (head) {
+        s.append(to_string(head->val) + " ");
+        head = head->next;
+    }
+
+    assert("2 12 4 10 6 8 " == s);
+}
+
 int main() {
 
     testIsPalindrome();
+
+    testReorder();
 
     return 0;
 }
