@@ -65,6 +65,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "876-middle-of-the-linked-li
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "234-palindrome-linked-list", "..\src\234-palindrome-linked-list\234-palindrome-linked-list.vcxproj", "{92A1FE38-340E-4E0F-A01D-8AC3D54EEC33}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "457-circular-array-loop", "..\src\457-circular-array-loop\457-circular-array-loop.vcxproj", "{B8625FDE-B2F5-4D61-BFE5-C35F6F9BDD70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -195,6 +197,10 @@ Global
 		{92A1FE38-340E-4E0F-A01D-8AC3D54EEC33}.Debug|x64.Build.0 = Debug|x64
 		{92A1FE38-340E-4E0F-A01D-8AC3D54EEC33}.Release|x64.ActiveCfg = Release|x64
 		{92A1FE38-340E-4E0F-A01D-8AC3D54EEC33}.Release|x64.Build.0 = Release|x64
+		{B8625FDE-B2F5-4D61-BFE5-C35F6F9BDD70}.Debug|x64.ActiveCfg = Debug|x64
+		{B8625FDE-B2F5-4D61-BFE5-C35F6F9BDD70}.Debug|x64.Build.0 = Debug|x64
+		{B8625FDE-B2F5-4D61-BFE5-C35F6F9BDD70}.Release|x64.ActiveCfg = Release|x64
+		{B8625FDE-B2F5-4D61-BFE5-C35F6F9BDD70}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
