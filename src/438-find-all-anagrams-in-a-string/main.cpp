@@ -1,3 +1,14 @@
+// https://leetcode.com/problems/find-all-anagrams-in-a-string/
+// 438. Find All Anagrams in a String
+
+// Given a string s and a non-empty string p, find all the start indices of p's anagrams in s.
+// Strings consists of lowercase English letters onlyand the length of both strings sand p will not be larger than 20, 100.
+// The order of output does not matter.
+
+// Time:  O(n)
+// Space: O(n)
+// Pattern: Sliding Window
+
 #include <Windows.h>
 
 #include <cassert>

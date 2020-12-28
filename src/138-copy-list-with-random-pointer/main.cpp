@@ -1,13 +1,3 @@
-#include <Windows.h>
-
-#include <cassert>
-#include <iostream>
-#include <string>
-#include <unordered_map>
-#include <vector>
-
-using namespace std;
-
 // https://leetcode.com/problems/copy-list-with-random-pointer/
 // 138. Copy List with Random Pointer
 
@@ -21,6 +11,16 @@ using namespace std;
 
 // Time:  O(n)
 // Space: O(n)
+
+#include <Windows.h>
+
+#include <cassert>
+#include <iostream>
+#include <string>
+#include <unordered_map>
+#include <vector>
+
+using namespace std;
 
 class Node {
 public:

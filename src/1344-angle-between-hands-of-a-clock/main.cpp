@@ -1,3 +1,8 @@
+// https://leetcode.com/problems/angle-between-hands-of-a-clock/
+// 1344. Angle Between Hands of a Clock
+
+// Given two numbers, hourand minutes.Return the smaller angle(in degrees) formed between the hourand the minute hand.
+
 #include <Windows.h>
 
 #include <cassert>

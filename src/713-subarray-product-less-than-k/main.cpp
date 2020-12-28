@@ -1,3 +1,13 @@
+// https://leetcode.com/problems/subarray-product-less-than-k/
+// 713. Subarray Product Less Than K
+
+// Your are given an array of positive integers nums.
+// Count and print the number of(contiguous) subarrays where the product of all the elements in the subarray is less than k.
+
+// Time:  O(n)
+// Space: O(1)
+// Pattern: Sliding Window
+
 #include <Windows.h>
 
 #include <cassert>
