@@ -19,3 +19,8 @@
 151 | Reverse Words in a String | Medium | [Solution](src/151-reverse-words-in-a-string/main.cpp)
 1574 | Shortest Subarray to be Removed to Make Array Sorted | Medium | [Solution](src/1574-shortest-subarray-to-be-removed-to-make-array-sorted/main.cpp)
 15 | 3Sum | Medium | [Solution](src/15-three-sum-to-zero/main.cpp)
+18 | 4Sum | Medium | [Solution](src/18-4sum/main.cpp)
+1 | Two Sum | Easy | [Solution](src/1-two-sum/main.cpp)
+200 | Number of Islands | Medium | [Solution](src/200-number-of-islands/main.cpp)
+202 | Happy Number | Easy | [Solution](src/202-happy-number/main.cpp)
+234 | Palindrome Linked List | Easy | [Solution](src/234-palindrome-linked-list/main.cpp)

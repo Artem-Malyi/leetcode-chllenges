@@ -1,3 +1,12 @@
+// https://leetcode.com/problems/palindrome-linked-list/
+// 234. Palindrome Linked List
+
+// Given a singly linked list, determine if it is a palindrome.
+
+// Time:  O(n)
+// Space: O(1)
+// Pattern: Fast & Slow pointers
+
 #include <Windows.h>
 
 #include <cassert>
@@ -15,10 +24,6 @@ struct ListNode {
 };
 
 ListNode* reverseList(ListNode* head);
-
-
-// Time:  O(n)
-// Space: O(1)
 
                               // slow:                v
 bool isPalindrome(ListNode* head) { // 1 -> 2 -> 4 -> 6 -> 4 -> 2 -> 1 -> nullptr

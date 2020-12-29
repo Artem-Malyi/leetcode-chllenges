@@ -5,7 +5,7 @@
 // Find all unique triplets in the array which gives the sum of zero.
 // Notice that the solution set must not contain duplicate triplets.
 
-// Time:  O(n)
+// Time:  O(n^2)
 // Space: O(n)
 // Pattern: Two pointers
 

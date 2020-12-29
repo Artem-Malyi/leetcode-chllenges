@@ -1,3 +1,16 @@
+// https://leetcode.com/problems/4sum/
+// 18. 4Sum (Four sum to equal to the target)
+
+// Given an array nums of n integersand an integer target, are there elements a, b, c, and d 
+// in nums such that a + b + c + d = target ? 
+// Find all unique quadruplets in the array which gives the sum of target.
+//
+// Notice that the solution set must not contain duplicate quadruplets.
+
+// Time:  O(n^3)
+// Space: O(n)
+// Pattern: Two pointers
+
 #include <Windows.h>
 
 #include <algorithm>
