@@ -73,5 +73,5 @@ int main() {
 
     testReorderLogFiles();
 
-	return 0;
+    return 0;
 }

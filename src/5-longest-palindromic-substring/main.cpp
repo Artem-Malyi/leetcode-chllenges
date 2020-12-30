@@ -77,5 +77,5 @@ int main() {
 
     testLongestPalindrome();
 
-	return 0;
+    return 0;
 }

@@ -80,5 +80,5 @@ int main() {
 
     testCanPartition();
 
-	return 0;
+    return 0;
 }

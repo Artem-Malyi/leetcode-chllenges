@@ -65,5 +65,5 @@ int main() {
 
     testTrap();
 
-	return 0;
+    return 0;
 }
