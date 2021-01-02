@@ -34,3 +34,4 @@
 876 | Middle of the Linked List | Easy | [Solution](src/876-middle-of-the-linked-list/main.cpp)
 937 | Reorder Data in Log Files | Easy | [Solution](src/937-reorder-data-in-log-files/main.cpp)
 977 | Squares of a Sorted Array | Easy | [Solution](src/977-squares-of-a-sorted-array/main.cpp)
+56 | Merge Intervals | Medium | [Solution](src/56-merge-intervals/main.cpp)
