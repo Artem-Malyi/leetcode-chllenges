@@ -1,3 +1,12 @@
+// hyperlink to the leetcode problem
+// name of the problem
+
+// problem description with examples
+
+// Time:  
+// Space: 
+// Pattern: 
+
 #include <Windows.h>
 
 #include <cassert>

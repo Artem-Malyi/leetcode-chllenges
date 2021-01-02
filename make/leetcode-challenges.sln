@@ -67,6 +67,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "234-palindrome-linked-list"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "457-circular-array-loop", "..\src\457-circular-array-loop\457-circular-array-loop.vcxproj", "{B8625FDE-B2F5-4D61-BFE5-C35F6F9BDD70}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "56-merge-intervals", "..\src\56-merge-intervals\56-merge-intervals.vcxproj", "{C1D6F420-2B0D-4AE5-951A-0D96118C2BB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,10 @@ Global
 		{B8625FDE-B2F5-4D61-BFE5-C35F6F9BDD70}.Debug|x64.Build.0 = Debug|x64
 		{B8625FDE-B2F5-4D61-BFE5-C35F6F9BDD70}.Release|x64.ActiveCfg = Release|x64
 		{B8625FDE-B2F5-4D61-BFE5-C35F6F9BDD70}.Release|x64.Build.0 = Release|x64
+		{C1D6F420-2B0D-4AE5-951A-0D96118C2BB5}.Debug|x64.ActiveCfg = Debug|x64
+		{C1D6F420-2B0D-4AE5-951A-0D96118C2BB5}.Debug|x64.Build.0 = Debug|x64
+		{C1D6F420-2B0D-4AE5-951A-0D96118C2BB5}.Release|x64.ActiveCfg = Release|x64
+		{C1D6F420-2B0D-4AE5-951A-0D96118C2BB5}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
