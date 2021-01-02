@@ -33,11 +33,11 @@
 
 using namespace std;
 
-vector<vector<int>> merge(vector<vector<int>>&& intervals) { // 1,3 2,6 8,10 15,18
+vector<vector<int>> merge(vector<vector<int>>&& intervals) { // [[1,3], [2,6], [8,10], [15,18]]
     if (intervals.size() < 2)
         return intervals;
 
-    sort(intervals.begin(), intervals.end(),                          // it:                   v
+    sort(intervals.begin(), intervals.end(),                           // it:                   v
         [](vector<int> lhs, vector<int> rhs) { return lhs[0] < rhs[0]; }); // 1,3 2,6 8,10 15,18
 
     vector<vector<int>>::const_iterator it = intervals.begin();
