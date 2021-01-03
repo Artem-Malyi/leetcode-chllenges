@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "457-circular-array-loop", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "56-merge-intervals", "..\src\56-merge-intervals\56-merge-intervals.vcxproj", "{C1D6F420-2B0D-4AE5-951A-0D96118C2BB5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "252-meeting-rooms", "..\src\252-meeting-rooms\252-meeting-rooms.vcxproj", "{FFD48F76-2EFD-4BAA-8973-C40748C30EC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -207,6 +209,10 @@ Global
 		{C1D6F420-2B0D-4AE5-951A-0D96118C2BB5}.Debug|x64.Build.0 = Debug|x64
 		{C1D6F420-2B0D-4AE5-951A-0D96118C2BB5}.Release|x64.ActiveCfg = Release|x64
 		{C1D6F420-2B0D-4AE5-951A-0D96118C2BB5}.Release|x64.Build.0 = Release|x64
+		{FFD48F76-2EFD-4BAA-8973-C40748C30EC3}.Debug|x64.ActiveCfg = Debug|x64
+		{FFD48F76-2EFD-4BAA-8973-C40748C30EC3}.Debug|x64.Build.0 = Debug|x64
+		{FFD48F76-2EFD-4BAA-8973-C40748C30EC3}.Release|x64.ActiveCfg = Release|x64
+		{FFD48F76-2EFD-4BAA-8973-C40748C30EC3}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

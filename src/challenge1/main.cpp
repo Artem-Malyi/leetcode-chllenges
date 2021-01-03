@@ -9,6 +9,7 @@
 
 #include <Windows.h>
 
+#include <algorithm>
 #include <cassert>
 #include <iostream>
 #include <string>
