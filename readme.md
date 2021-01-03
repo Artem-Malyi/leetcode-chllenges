@@ -35,3 +35,4 @@
 937 | Reorder Data in Log Files | Easy | [Solution](src/937-reorder-data-in-log-files/main.cpp)
 977 | Squares of a Sorted Array | Easy | [Solution](src/977-squares-of-a-sorted-array/main.cpp)
 56 | Merge Intervals | Medium | [Solution](src/56-merge-intervals/main.cpp)
+252 | Meeting Rooms | Easy | [Solution](src/252-meeting-rooms/main.cpp)
