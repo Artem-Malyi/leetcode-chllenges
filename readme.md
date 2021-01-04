@@ -36,3 +36,4 @@
 977 | Squares of a Sorted Array | Easy | [Solution](src/977-squares-of-a-sorted-array/main.cpp)
 56 | Merge Intervals | Medium | [Solution](src/56-merge-intervals/main.cpp)
 252 | Meeting Rooms | Easy | [Solution](src/252-meeting-rooms/main.cpp)
+57 | Insert Interval | Medium | [Solution](src/57-insert-interval/main.cpp)
