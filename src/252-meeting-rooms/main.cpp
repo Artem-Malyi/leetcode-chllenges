@@ -37,6 +37,11 @@ bool canAttendMeetings(vector<vector<int>>&& intervals) { // 13,15 1,13
     for (int i = 1; i < intervals.size(); i++) { // 1,13 13,15
         if (intervals[i][0] < intervals[i - 1][1])
             return false; // found overlapping interval
+        // please note the comparison above, it is "<" and not "<="
+        // while merging we needed "<=" comparison, as we will be merging the two
+        // intervals having condition "intervals[i].start == intervals[i - 1].end" but
+        // such intervals don't represent conflicting appointments as one starts right
+        // after the other
     }
 
     return true;
