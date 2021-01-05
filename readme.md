@@ -38,3 +38,4 @@
 252 | Meeting Rooms | Easy | [Solution](src/252-meeting-rooms/main.cpp)
 57 | Insert Interval | Medium | [Solution](src/57-insert-interval/main.cpp)
 986 | Interval List Intersections | Medium | [Solution](src/986-interval-list-intersections/main.cpp)
+253 | Meeting Rooms II | Medium | [Solution](src/253-meeting-rooms2/main.cpp)

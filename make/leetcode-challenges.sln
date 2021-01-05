@@ -75,6 +75,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "57-insert-interval", "..\sr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "986-interval-list-intersections", "..\src\986-interval-list-intersections\986-interval-list-intersections.vcxproj", "{0E8EFE7B-C419-4454-9BC1-E840C551790A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "253-meeting-rooms2", "..\src\253-meeting-rooms2\253-meeting-rooms2.vcxproj", "{0B23ED64-1FD9-452A-9A7B-1A7BC30722DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -225,6 +227,10 @@ Global
 		{0E8EFE7B-C419-4454-9BC1-E840C551790A}.Debug|x64.Build.0 = Debug|x64
 		{0E8EFE7B-C419-4454-9BC1-E840C551790A}.Release|x64.ActiveCfg = Release|x64
 		{0E8EFE7B-C419-4454-9BC1-E840C551790A}.Release|x64.Build.0 = Release|x64
+		{0B23ED64-1FD9-452A-9A7B-1A7BC30722DC}.Debug|x64.ActiveCfg = Debug|x64
+		{0B23ED64-1FD9-452A-9A7B-1A7BC30722DC}.Debug|x64.Build.0 = Debug|x64
+		{0B23ED64-1FD9-452A-9A7B-1A7BC30722DC}.Release|x64.ActiveCfg = Release|x64
+		{0B23ED64-1FD9-452A-9A7B-1A7BC30722DC}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
