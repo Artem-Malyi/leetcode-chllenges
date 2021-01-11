@@ -77,6 +77,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "986-interval-list-intersect
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "253-meeting-rooms2", "..\src\253-meeting-rooms2\253-meeting-rooms2.vcxproj", "{0B23ED64-1FD9-452A-9A7B-1A7BC30722DC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "452-minimum-number-of-arrows-to-burst-balloons", "..\src\452-minimum-number-of-arrows-to-burst-balloons\452-minimum-number-of-arrows-to-burst-balloons.vcxproj", "{1E761357-31C0-4C7D-95D4-859EF332682F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -231,6 +233,10 @@ Global
 		{0B23ED64-1FD9-452A-9A7B-1A7BC30722DC}.Debug|x64.Build.0 = Debug|x64
 		{0B23ED64-1FD9-452A-9A7B-1A7BC30722DC}.Release|x64.ActiveCfg = Release|x64
 		{0B23ED64-1FD9-452A-9A7B-1A7BC30722DC}.Release|x64.Build.0 = Release|x64
+		{1E761357-31C0-4C7D-95D4-859EF332682F}.Debug|x64.ActiveCfg = Debug|x64
+		{1E761357-31C0-4C7D-95D4-859EF332682F}.Debug|x64.Build.0 = Debug|x64
+		{1E761357-31C0-4C7D-95D4-859EF332682F}.Release|x64.ActiveCfg = Release|x64
+		{1E761357-31C0-4C7D-95D4-859EF332682F}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -39,3 +39,4 @@
 57 | Insert Interval | Medium | [Solution](src/57-insert-interval/main.cpp)
 986 | Interval List Intersections | Medium | [Solution](src/986-interval-list-intersections/main.cpp)
 253 | Meeting Rooms II | Medium | [Solution](src/253-meeting-rooms2/main.cpp)
+452 | Minimum Number of Arrows to Burst Balloons | [Solution](src/452-minimum-number-of-arrows-to-burst-balloons/main.cpp)
