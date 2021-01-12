@@ -12,6 +12,7 @@
 #include <algorithm>
 #include <cassert>
 #include <iostream>
+#include <queue>
 #include <string>
 #include <unordered_map>
 #include <vector>

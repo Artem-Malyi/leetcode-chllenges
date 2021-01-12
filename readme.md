@@ -40,3 +40,4 @@
 986 | Interval List Intersections | Medium | [Solution](src/986-interval-list-intersections/main.cpp)
 253 | Meeting Rooms II | Medium | [Solution](src/253-meeting-rooms2/main.cpp)
 452 | Minimum Number of Arrows to Burst Balloons | [Solution](src/452-minimum-number-of-arrows-to-burst-balloons/main.cpp)
+--- | Maximum CPU Load | Hard | [Solution](src/maximum-cpu-load/main.cpp)

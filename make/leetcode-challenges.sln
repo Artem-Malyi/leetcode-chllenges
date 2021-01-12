@@ -79,6 +79,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "253-meeting-rooms2", "..\sr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "452-minimum-number-of-arrows-to-burst-balloons", "..\src\452-minimum-number-of-arrows-to-burst-balloons\452-minimum-number-of-arrows-to-burst-balloons.vcxproj", "{1E761357-31C0-4C7D-95D4-859EF332682F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maximum-cpu-load", "..\src\maximum-cpu-load\maximum-cpu-load.vcxproj", "{21BE1373-E4B4-4637-921A-C3131EABF6B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -237,6 +239,10 @@ Global
 		{1E761357-31C0-4C7D-95D4-859EF332682F}.Debug|x64.Build.0 = Debug|x64
 		{1E761357-31C0-4C7D-95D4-859EF332682F}.Release|x64.ActiveCfg = Release|x64
 		{1E761357-31C0-4C7D-95D4-859EF332682F}.Release|x64.Build.0 = Release|x64
+		{21BE1373-E4B4-4637-921A-C3131EABF6B4}.Debug|x64.ActiveCfg = Debug|x64
+		{21BE1373-E4B4-4637-921A-C3131EABF6B4}.Debug|x64.Build.0 = Debug|x64
+		{21BE1373-E4B4-4637-921A-C3131EABF6B4}.Release|x64.ActiveCfg = Release|x64
+		{21BE1373-E4B4-4637-921A-C3131EABF6B4}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
