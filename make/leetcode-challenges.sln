@@ -81,6 +81,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "452-minimum-number-of-arrow
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maximum-cpu-load", "..\src\maximum-cpu-load\maximum-cpu-load.vcxproj", "{21BE1373-E4B4-4637-921A-C3131EABF6B4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "759-employee-free-time", "..\src\759-employee-free-time\759-employee-free-time.vcxproj", "{8A78C302-BE33-4AA4-A3CD-6D494A99CB9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -243,6 +245,10 @@ Global
 		{21BE1373-E4B4-4637-921A-C3131EABF6B4}.Debug|x64.Build.0 = Debug|x64
 		{21BE1373-E4B4-4637-921A-C3131EABF6B4}.Release|x64.ActiveCfg = Release|x64
 		{21BE1373-E4B4-4637-921A-C3131EABF6B4}.Release|x64.Build.0 = Release|x64
+		{8A78C302-BE33-4AA4-A3CD-6D494A99CB9C}.Debug|x64.ActiveCfg = Debug|x64
+		{8A78C302-BE33-4AA4-A3CD-6D494A99CB9C}.Debug|x64.Build.0 = Debug|x64
+		{8A78C302-BE33-4AA4-A3CD-6D494A99CB9C}.Release|x64.ActiveCfg = Release|x64
+		{8A78C302-BE33-4AA4-A3CD-6D494A99CB9C}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
