@@ -34,9 +34,36 @@
 
 using namespace std;
 
+static void cyclicSort(vector<int>& nums) { //         v
+    for (int i = 0; i < nums.size(); i++) { // 1,2,3,4,5
+        while (nums[i] - 1 != i) {       // 4 != 4
+            int tmp = nums[nums[i] - 1]; // 
+            nums[nums[i] - 1] = nums[i]; // 
+            nums[i] = tmp;               // 
+        }
+    }
+}
+
+void testCyclicSort() {
+    vector<int> inp1 = { 4,2,3,1 };
+    vector<int> exp1 = { 1,2,3,4 };
+    cyclicSort(inp1);
+    assert(equal(exp1.begin(), exp1.end(), inp1.begin()));
+
+    vector<int> inp2 = { 3,2,5,1,4 };
+    vector<int> exp2 = { 1,2,3,4,5 };
+    cyclicSort(inp2);
+    assert(equal(exp2.begin(), exp2.end(), inp2.begin()));
+
+    vector<int> inp3 = { 1,6,4,5,2,3 };
+    vector<int> exp3 = { 1,2,3,4,5,6 };
+    cyclicSort(inp3);
+    assert(equal(exp3.begin(), exp3.end(), inp3.begin()));
+}
+
 int main() {
 
-	cout << "Hello, world!" << endl;
+    testCyclicSort();
 
     return 0;
 }
