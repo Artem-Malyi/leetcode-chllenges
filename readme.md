@@ -43,3 +43,4 @@
 --- | Maximum CPU Load | Hard | [Solution](src/maximum-cpu-load/main.cpp)
 759 | Employee Free Time | Hard | [Solution](src/759-employee-free-time/main.cpp)
 268 | Missing Number | Easy | [Solution](src/268-missing-number/main.cpp)
+--- | Cyclic sort | Easy | [Solution](src/cyclic-sort/main.cpp)

@@ -85,6 +85,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "759-employee-free-time", ".
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "268-missing-number", "..\src\268-missing-number\268-missing-number.vcxproj", "{CCCA9622-96A9-495B-8595-A03C34D24C0D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cyclic-sort", "..\src\cyclic-sort\cyclic-sort.vcxproj", "{ee45ac9a-bda1-4b73-a2d6-d89798851c7b}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
