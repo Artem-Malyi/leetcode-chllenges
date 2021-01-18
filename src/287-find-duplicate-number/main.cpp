@@ -43,7 +43,8 @@
 
 using namespace std;
 
-// With array modification (cyclic sort)
+// Time:  O(n)
+// Space: O(1) with input modification (cyclic sort)
 int findDuplicate1(vector<int>& nums) {
     for (int i = 0; i < nums.size(); i++) {
         while (nums[i] - 1 != i) {
