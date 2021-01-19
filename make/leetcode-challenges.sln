@@ -91,6 +91,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "448-find-all-numbers-disapp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "287-find-duplicate-number", "..\src\287-find-duplicate-number\287-find-duplicate-number.vcxproj", "{AD453BED-E336-46E5-B4F4-4018634F0BD7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "442-find-all-duplicates-in-an-array", "..\src\442-find-all-duplicates-in-an-array\442-find-all-duplicates-in-an-array.vcxproj", "{1CF8F373-9CF9-4F11-8A8E-643F54590D3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -273,6 +275,10 @@ Global
 		{AD453BED-E336-46E5-B4F4-4018634F0BD7}.Debug|x64.Build.0 = Debug|x64
 		{AD453BED-E336-46E5-B4F4-4018634F0BD7}.Release|x64.ActiveCfg = Release|x64
 		{AD453BED-E336-46E5-B4F4-4018634F0BD7}.Release|x64.Build.0 = Release|x64
+		{1CF8F373-9CF9-4F11-8A8E-643F54590D3B}.Debug|x64.ActiveCfg = Debug|x64
+		{1CF8F373-9CF9-4F11-8A8E-643F54590D3B}.Debug|x64.Build.0 = Debug|x64
+		{1CF8F373-9CF9-4F11-8A8E-643F54590D3B}.Release|x64.ActiveCfg = Release|x64
+		{1CF8F373-9CF9-4F11-8A8E-643F54590D3B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

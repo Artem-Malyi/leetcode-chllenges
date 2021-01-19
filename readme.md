@@ -46,3 +46,4 @@
 --- | Cyclic sort | Easy | [Solution](src/cyclic-sort/main.cpp)
 448 | Find All Numbers Disappeared in an Array | Easy | [Solution](src/448-find-all-numbers-disappeared-in-an-array/main.cpp)
 287 | Find the Duplicate Number | Medium | [Solution](src/287-find-duplicate-number/main.cpp)
+442 | Find All Duplicates in an Array | Medium | [Solution](src/442-find-all-duplicates-in-an-array/main.cpp)
