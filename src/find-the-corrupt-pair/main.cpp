@@ -1,4 +1,4 @@
-// Didn't find it on the LeetCode
+// Didn't find it on LeetCode
 // Find the Corrupt Pair
 
 // We are given an unsorted array containing 'n' numbers taken from the range 1 to 'n'.

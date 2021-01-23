@@ -97,6 +97,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "find-the-corrupt-pair", "..
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "41-first-missing-positive", "..\src\41-first-missing-positive\41-first-missing-positive.vcxproj", "{CC250338-A913-44D3-B2D1-8521717BBB24}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "find-the-first-k-missing-positive-numbers", "..\src\find-the-first-k-missing-positive-numbers\find-the-first-k-missing-positive-numbers.vcxproj", "{0E0C17C3-5A90-43FE-A4FF-588B8AB560B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -291,6 +293,10 @@ Global
 		{CC250338-A913-44D3-B2D1-8521717BBB24}.Debug|x64.Build.0 = Debug|x64
 		{CC250338-A913-44D3-B2D1-8521717BBB24}.Release|x64.ActiveCfg = Release|x64
 		{CC250338-A913-44D3-B2D1-8521717BBB24}.Release|x64.Build.0 = Release|x64
+		{0E0C17C3-5A90-43FE-A4FF-588B8AB560B4}.Debug|x64.ActiveCfg = Debug|x64
+		{0E0C17C3-5A90-43FE-A4FF-588B8AB560B4}.Debug|x64.Build.0 = Debug|x64
+		{0E0C17C3-5A90-43FE-A4FF-588B8AB560B4}.Release|x64.ActiveCfg = Release|x64
+		{0E0C17C3-5A90-43FE-A4FF-588B8AB560B4}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
