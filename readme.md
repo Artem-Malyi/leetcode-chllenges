@@ -48,3 +48,4 @@
 287 | Find the Duplicate Number | Medium | [Solution](src/287-find-duplicate-number/main.cpp)
 442 | Find All Duplicates in an Array | Medium | [Solution](src/442-find-all-duplicates-in-an-array/main.cpp)
 --- | Find The Corrupt Pair | Easy | [Solution](src/find-the-corrupt-pair/main.cpp)
+41 | First Missing Positive | Hard | [Solution](src/41-find-missing-positive/main.cpp)
