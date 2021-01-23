@@ -50,3 +50,4 @@
 --- | Find The Corrupt Pair | Easy | [Solution](src/find-the-corrupt-pair/main.cpp)
 41 | First Missing Positive | Hard | [Solution](src/41-first-missing-positive/main.cpp)
 --- | Find the First K Missing Positive Numbers | Hard | [Solution](src/find-the-first-k-missing-positive-numbers/main.cpp)
+--- | Find the Smallest Missing Positive Number | Medium | [Solution](src/find-the-smallest-missing-positive-number/main.cpp)
