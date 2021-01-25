@@ -51,3 +51,4 @@
 41 | First Missing Positive | Hard | [Solution](src/41-first-missing-positive/main.cpp)
 --- | Find the First K Missing Positive Numbers | Hard | [Solution](src/find-the-first-k-missing-positive-numbers/main.cpp)
 --- | Find the Smallest Missing Positive Number | Medium | [Solution](src/find-the-smallest-missing-positive-number/main.cpp)
+1536 | Kth Missing Positive Number | Medium | [Solution](src/1539-kth-missing-positive-number/main.cpp)

@@ -101,6 +101,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "find-the-first-k-missing-po
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "find-the-smallest-missing-positive-number", "..\src\find-the-smallest-missing-positive-number\find-the-smallest-missing-positive-number.vcxproj", "{39318FDE-C3AA-4AEF-8FD4-7FBF155FF942}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1539-kth-missing-positive-number", "..\src\1539-kth-missing-positive-number\1539-kth-missing-positive-number.vcxproj", "{550ACFC9-A09A-45FD-A307-BB67DF7D6175}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -303,6 +305,10 @@ Global
 		{39318FDE-C3AA-4AEF-8FD4-7FBF155FF942}.Debug|x64.Build.0 = Debug|x64
 		{39318FDE-C3AA-4AEF-8FD4-7FBF155FF942}.Release|x64.ActiveCfg = Release|x64
 		{39318FDE-C3AA-4AEF-8FD4-7FBF155FF942}.Release|x64.Build.0 = Release|x64
+		{550ACFC9-A09A-45FD-A307-BB67DF7D6175}.Debug|x64.ActiveCfg = Debug|x64
+		{550ACFC9-A09A-45FD-A307-BB67DF7D6175}.Debug|x64.Build.0 = Debug|x64
+		{550ACFC9-A09A-45FD-A307-BB67DF7D6175}.Release|x64.ActiveCfg = Release|x64
+		{550ACFC9-A09A-45FD-A307-BB67DF7D6175}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
