@@ -1,5 +1,5 @@
-// hyperlink to the leetcode problem
-// name of the problem
+// https://leetcode.com/problems/reverse-linked-list/
+// 206. Reverse Linked List
 
 // Reverse a singly linked list.
 // Example:
