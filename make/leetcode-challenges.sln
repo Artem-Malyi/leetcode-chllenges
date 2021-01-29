@@ -105,6 +105,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1539-kth-missing-positive-n
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "206-reverse-linked-list", "..\src\206-reverse-linked-list\206-reverse-linked-list.vcxproj", "{905AD066-FC74-4D41-9A87-3123139E3E8E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "92-reverse-linked-list-ii", "..\src\92-reverse-linked-list-ii\92-reverse-linked-list-ii.vcxproj", "{356EA0D5-9905-4706-BD40-D41B229E94CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -315,6 +317,10 @@ Global
 		{905AD066-FC74-4D41-9A87-3123139E3E8E}.Debug|x64.Build.0 = Debug|x64
 		{905AD066-FC74-4D41-9A87-3123139E3E8E}.Release|x64.ActiveCfg = Release|x64
 		{905AD066-FC74-4D41-9A87-3123139E3E8E}.Release|x64.Build.0 = Release|x64
+		{356EA0D5-9905-4706-BD40-D41B229E94CC}.Debug|x64.ActiveCfg = Debug|x64
+		{356EA0D5-9905-4706-BD40-D41B229E94CC}.Debug|x64.Build.0 = Debug|x64
+		{356EA0D5-9905-4706-BD40-D41B229E94CC}.Release|x64.ActiveCfg = Release|x64
+		{356EA0D5-9905-4706-BD40-D41B229E94CC}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
