@@ -102,6 +102,9 @@ void testReverse() {
 
     assert("76543218" == toString(head = reverse(head, 7)));
     assert("12345678" == toString(head = reverse(head, 7)));
+
+    assert("87654321" == toString(head = reverse(head, 15)));
+    assert("12345678" == toString(head = reverse(head, 15)));
 }
 
 int main() {
