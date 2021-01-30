@@ -1,5 +1,5 @@
 // Didn't find on LeetCode
-// Reverse every K-length sub-list
+// Reverse Every K-length Sub-list
 
 // Given the head of a LinkedListand a number 'k', reverse every 'k' sized sub-list starting from the head.
 // If, in the end, you are left with a sub-list with less than 'k' elements, reverse it too.
@@ -81,7 +81,6 @@ string toString(ListNode* n) {
     }
     return s;
 }
-
 
 void testReverse() {
     ListNode* head = new ListNode(1);
