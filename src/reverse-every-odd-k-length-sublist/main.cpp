@@ -47,35 +47,31 @@ ListNode* reverse(ListNode* head, int k) {
         return head;
     ListNode* prev = nullptr;
     ListNode* curr = head;
-    bool shouldReverse = true;
     while (curr) {
         // remember previous pointer and current pointer to connect them later with the next sublist
         ListNode* lastInFirst = prev;
         ListNode* lastInSublist = curr;
+
+        // reverse 'k' nodes
         for (int i = 0; i < k && curr; i++) { // 2 < 2
-            if (shouldReverse) {
-                ListNode* temp = curr->next;
-                curr->next = prev;
-                prev = curr;
-                curr = temp;
-            }
-            else {
-                prev = curr;
-                curr = curr->next;
-            }
+            ListNode* temp = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = temp;
         }
-        if (shouldReverse) {
-            // connect the remembered previous node to the k - 1-th node
-            if (lastInFirst)
-                lastInFirst->next = prev;
-            else
-                head = prev;
-            // connect the remembered current node to the  k-th node
-            lastInSublist->next = curr;
-            // prepare for next iteration
-            prev = lastInSublist;
+
+        // connect the remembered previous node to the k - 1-th node
+        if (lastInFirst)
+            lastInFirst->next = prev;
+        else
+            head = prev; // this means we are changing the first node (head) of the LinkedList
+        lastInSublist->next = curr; // connect the remembered current node to the  k-th node
+
+        // skip 'k' nodes
+        for (int i = 0; i < k && curr; i++) {
+            prev = curr;
+            curr = curr->next;
         }
-        shouldReverse = !shouldReverse; // true
     }
     return head;
 }
