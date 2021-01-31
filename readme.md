@@ -56,3 +56,4 @@
 92 | Reverse Linked List II | Medium | [Solution](src/92-reverse-linked-list-ii/main.cpp)
 --- | Reverse Every K-length Sub-list | Medium | [Solution](src/reverse-every-k-length-sublist/main.cpp)
 --- | Reverse Every Odd K-length Sub-list | Medium | [Solution](src/reverse-every-odd-k-length-sublist/main.cpp)
+61| Rotate List | Medium | [Solution](src/61-rotate-list/main.cpp)
