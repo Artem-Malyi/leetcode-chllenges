@@ -113,6 +113,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reverse-every-odd-k-length-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "61-rotate-list", "..\src\61-rotate-list\61-rotate-list.vcxproj", "{B332DB1B-19B5-4726-88ED-AD53F36C25C4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "102-binary-tree-level-order-traversal", "..\src\102-binary-tree-level-order-traversal\102-binary-tree-level-order-traversal.vcxproj", "{986D241F-01D5-4463-9DF9-135E43A95A32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -339,6 +341,10 @@ Global
 		{B332DB1B-19B5-4726-88ED-AD53F36C25C4}.Debug|x64.Build.0 = Debug|x64
 		{B332DB1B-19B5-4726-88ED-AD53F36C25C4}.Release|x64.ActiveCfg = Release|x64
 		{B332DB1B-19B5-4726-88ED-AD53F36C25C4}.Release|x64.Build.0 = Release|x64
+		{986D241F-01D5-4463-9DF9-135E43A95A32}.Debug|x64.ActiveCfg = Debug|x64
+		{986D241F-01D5-4463-9DF9-135E43A95A32}.Debug|x64.Build.0 = Debug|x64
+		{986D241F-01D5-4463-9DF9-135E43A95A32}.Release|x64.ActiveCfg = Release|x64
+		{986D241F-01D5-4463-9DF9-135E43A95A32}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
