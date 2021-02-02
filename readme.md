@@ -59,4 +59,4 @@
 61 | Rotate List | Medium | [Solution](src/61-rotate-list/main.cpp)
 102 | Binary Tree Level Order Traversal | Medium | [Solution](src/102-binary-tree-level-order-traversal/main.cpp)
 107 | Binary Tree Level Order Traversal II | Easy | [Solution](src/107-binary-tree-level-order-traversal-ii/main.cpp)
-103 | Binary Tree Zigzag Level Order Traversal | Medium | [Solution](src/107-binary-tree-level-order-traversal-ii/main.cpp)
+103 | Binary Tree Zigzag Level Order Traversal | Medium | [Solution](src/103-binary-tree-zigzag-level-order-traversal/main.cpp)
