@@ -34,8 +34,8 @@
 //    ]
 
 // Time:  O(n)
-// Space: O(n)
-// Pattern: 
+// Space: O(1)
+// Pattern: Tree breadth-first search
 
 #include <Windows.h>
 

@@ -119,6 +119,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "107-binary-tree-level-order
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "103-binary-tree-zigzag-level-order-traversal", "..\src\103-binary-tree-zigzag-level-order-traversal\103-binary-tree-zigzag-level-order-traversal.vcxproj", "{485A4EE0-7F7D-46BB-A466-C35707739793}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "637-average-of-levels-in-binary-tree", "..\src\637-average-of-levels-in-binary-tree\637-average-of-levels-in-binary-tree.vcxproj", "{CFC80B9F-0337-44C3-9ADB-F7D1B6634453}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -357,6 +359,10 @@ Global
 		{485A4EE0-7F7D-46BB-A466-C35707739793}.Debug|x64.Build.0 = Debug|x64
 		{485A4EE0-7F7D-46BB-A466-C35707739793}.Release|x64.ActiveCfg = Release|x64
 		{485A4EE0-7F7D-46BB-A466-C35707739793}.Release|x64.Build.0 = Release|x64
+		{CFC80B9F-0337-44C3-9ADB-F7D1B6634453}.Debug|x64.ActiveCfg = Debug|x64
+		{CFC80B9F-0337-44C3-9ADB-F7D1B6634453}.Debug|x64.Build.0 = Debug|x64
+		{CFC80B9F-0337-44C3-9ADB-F7D1B6634453}.Release|x64.ActiveCfg = Release|x64
+		{CFC80B9F-0337-44C3-9ADB-F7D1B6634453}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
