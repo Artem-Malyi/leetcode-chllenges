@@ -121,6 +121,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "103-binary-tree-zigzag-leve
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "637-average-of-levels-in-binary-tree", "..\src\637-average-of-levels-in-binary-tree\637-average-of-levels-in-binary-tree.vcxproj", "{CFC80B9F-0337-44C3-9ADB-F7D1B6634453}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "111-minimum-depth-of-binary-tree", "..\src\111-minimum-depth-of-binary-tree\111-minimum-depth-of-binary-tree.vcxproj", "{A90D5E33-4D13-428B-A391-31679C060D42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -363,6 +365,10 @@ Global
 		{CFC80B9F-0337-44C3-9ADB-F7D1B6634453}.Debug|x64.Build.0 = Debug|x64
 		{CFC80B9F-0337-44C3-9ADB-F7D1B6634453}.Release|x64.ActiveCfg = Release|x64
 		{CFC80B9F-0337-44C3-9ADB-F7D1B6634453}.Release|x64.Build.0 = Release|x64
+		{A90D5E33-4D13-428B-A391-31679C060D42}.Debug|x64.ActiveCfg = Debug|x64
+		{A90D5E33-4D13-428B-A391-31679C060D42}.Debug|x64.Build.0 = Debug|x64
+		{A90D5E33-4D13-428B-A391-31679C060D42}.Release|x64.ActiveCfg = Release|x64
+		{A90D5E33-4D13-428B-A391-31679C060D42}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
