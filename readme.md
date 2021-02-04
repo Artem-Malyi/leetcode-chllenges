@@ -61,4 +61,4 @@
 107 | Binary Tree Level Order Traversal II | Easy | [Solution](src/107-binary-tree-level-order-traversal-ii/main.cpp)
 103 | Binary Tree Zigzag Level Order Traversal | Medium | [Solution](src/103-binary-tree-zigzag-level-order-traversal/main.cpp)
 637 | Average of Levels in Binary Tree | Easy | [Solution](src/637-average-of-levels-in-binary-tree/main.cpp)
-
+111 | Minimum Depth of Binary Tree | Easy | [Solution](src/111-minimum-depth-of-binary-tree/main.cpp)
