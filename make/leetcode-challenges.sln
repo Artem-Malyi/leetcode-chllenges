@@ -123,6 +123,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "637-average-of-levels-in-bi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "111-minimum-depth-of-binary-tree", "..\src\111-minimum-depth-of-binary-tree\111-minimum-depth-of-binary-tree.vcxproj", "{A90D5E33-4D13-428B-A391-31679C060D42}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "level-order-successor", "..\src\level-order-successor\level-order-successor.vcxproj", "{A4EEC352-52CC-4033-ABD0-A3A6A1336B9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -369,6 +371,10 @@ Global
 		{A90D5E33-4D13-428B-A391-31679C060D42}.Debug|x64.Build.0 = Debug|x64
 		{A90D5E33-4D13-428B-A391-31679C060D42}.Release|x64.ActiveCfg = Release|x64
 		{A90D5E33-4D13-428B-A391-31679C060D42}.Release|x64.Build.0 = Release|x64
+		{A4EEC352-52CC-4033-ABD0-A3A6A1336B9F}.Debug|x64.ActiveCfg = Debug|x64
+		{A4EEC352-52CC-4033-ABD0-A3A6A1336B9F}.Debug|x64.Build.0 = Debug|x64
+		{A4EEC352-52CC-4033-ABD0-A3A6A1336B9F}.Release|x64.ActiveCfg = Release|x64
+		{A4EEC352-52CC-4033-ABD0-A3A6A1336B9F}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
