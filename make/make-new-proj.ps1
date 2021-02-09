@@ -5,7 +5,9 @@
 # 0. get new project name from user
 #
 param (
-    [Parameter(Mandatory=$true)][string]$projectName
+    [Parameter(Mandatory=$true)][string]$projectName,
+    [Parameter(Mandatory)][string]$link,
+    [Parameter(Mandatory=$true)][string]$difficulty
 )
 
 #
@@ -24,39 +26,78 @@ function convertStringToHexBytesString {
 }
 
 #
-# 1. copy sample project to given location
+# 1. Validate input
 #
+
+$number, $name = $projectName.split('.')
+if (!$name) {
+  $name = $projectName
+  $number = "---"
+}
+else {
+  $name = $name.Trim()
+}
+$folderName = if ($number.equals("---"))
+  { $($name -replace " ", '-').ToLower() } else
+  { $($number + "-" + $name -replace " ", '-').ToLower() }
+if([string]::IsNullOrWhiteSpace($link)) {
+   $link = "Didn't find it on LeetCode"
+}
+
+#
+# 1. Copy sample project to the given location
+#
+"1. Copy sample project to the given location"
 $solutionDir = $PSScriptRoot + '\..'
 $sourceProjectFile = $($solutionDir + '\src\challenge1\challenge1.vcxproj')
 $sourceCppFile = $($solutionDir + '\src\challenge1\main.cpp')
-$destinationProjectFile = $sourceProjectFile -replace 'challenge1', $projectName
-$destinationCppFile = $sourceCppFile -replace 'challenge1', $projectName
-md -Path $($solutionDir + '\src\' + $projectName) -Force
+$destinationProjectFile = $sourceProjectFile -replace 'challenge1', $folderName
+$destinationCppFile = $sourceCppFile -replace 'challenge1', $folderName
+md -Path $($solutionDir + '\src\' + $folderName) -Force
 cp -Path $sourceProjectFile -Destination $destinationProjectFile
 cp -Path $sourceCppFile -Destination $destinationCppFile
 
 #
-# 2. update the name and guid of the new project file
+# 2. Update readme file
 #
+"2. Update readme file"
+$difficulty = "easy"
+$difficulty = (Get-Culture).TextInfo.ToTitleCase($difficulty.ToLower())
+$newReadmeEntry = $number + " | " + $name + " | " + $difficulty + " | [Solution](src/" + $folderName + "/main.cpp)"
+Add-Content -Path $($solutionDir + "\readme.md") -Value $newReadmeEntry
+
+#
+# 3. Update source file
+#
+"3. Update source file"
+(Get-Content $destinationCppFile) | Foreach-Object {
+ $_ -replace "hyperlink to the leetcode problem", $link`
+    -replace "name of the problem", $projectName`
+} | Set-Content $destinationCppFile -Force
+
+#
+# 4. Update the name and guid of the new project file
+#
+"4. Update the name and guid of the new project file"
 $guidRegex = "[a-fA-F0-9]{8}-([a-fA-F0-9]{4}-){3}[a-fA-F0-9]{12}"
 $newGuid = $(New-Guid).Guid
 (Get-Content $destinationProjectFile) | Foreach-Object {
- $_ -replace "challenge1", $projectName`
+ $_ -replace "challenge1", $folderName`
     -replace $guidRegex, $newGuid`
 } | Set-Content $destinationProjectFile -Force
 
 #
-# 3. add new name and guid to solution file, as follows:
+# 5. Add new name and guid to solution file, as follows:
 #
 #Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "904-Fruits-Into-Baskets", "..\src\904-Fruits-Into-Baskets\904-Fruits-Into-Baskets.vcxproj", "{DDC1EF41-050F-4BD5-A74D-9DCC58F0FF75}"
 #EndProject
-
+"5. Add new name and guid to solution file"
 $solutionFile = $($solutionDir + '\make\leetcode-challenges.sln')
 
 $solutionFileContent = Get-Content $solutionFile
 $allGuids = $solutionFileContent | Select-String -Pattern $guidRegex -AllMatches | Select-Object -ExpandProperty Matches | Select-Object -ExpandProperty Value
 $firstProjectGuid = $allGuids[0]
-$newProjectString = $('Project("{' + $firstProjectGuid + '}") = "' + $projectName + '", "..\src\' + $projectName + '\' + $projectName + '.vcxproj", "{' + $newGuid + '}"')
+$newProjectString = $('Project("{' + $firstProjectGuid + '}") = "' + $folderName + '", "..\src\' + $folderName + '\' + $folderName + '.vcxproj", "{' + $newGuid + '}"')
 
 # Read the entire file content as a [byte[]] array.
 # Note: Use PowerShell *Core* syntax.
