@@ -129,6 +129,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "connect-level-order-sibling
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "connect-all-level-order-siblings", "..\src\connect-all-level-order-siblings\connect-all-level-order-siblings.vcxproj", "{3624AFFE-8A32-4B06-8C96-935CD93264F5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "199-binary-tree-right-side-view", "..\src\199-binary-tree-right-side-view\199-binary-tree-right-side-view.vcxproj", "{42DD0003-ECF3-4127-8672-0DE9F0593047}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -387,6 +389,10 @@ Global
 		{3624AFFE-8A32-4B06-8C96-935CD93264F5}.Debug|x64.Build.0 = Debug|x64
 		{3624AFFE-8A32-4B06-8C96-935CD93264F5}.Release|x64.ActiveCfg = Release|x64
 		{3624AFFE-8A32-4B06-8C96-935CD93264F5}.Release|x64.Build.0 = Release|x64
+		{42DD0003-ECF3-4127-8672-0DE9F0593047}.Debug|x64.ActiveCfg = Debug|x64
+		{42DD0003-ECF3-4127-8672-0DE9F0593047}.Debug|x64.Build.0 = Debug|x64
+		{42DD0003-ECF3-4127-8672-0DE9F0593047}.Release|x64.ActiveCfg = Release|x64
+		{42DD0003-ECF3-4127-8672-0DE9F0593047}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
