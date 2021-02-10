@@ -61,7 +61,6 @@ cp -Path $sourceCppFile -Destination $destinationCppFile
 # 2. Update readme file
 #
 "2. Update readme file"
-$difficulty = "easy"
 $difficulty = (Get-Culture).TextInfo.ToTitleCase($difficulty.ToLower())
 $newReadmeEntry = $number + " | " + $name + " | " + $difficulty + " | [Solution](src/" + $folderName + "/main.cpp)"
 Add-Content -Path $($solutionDir + "\readme.md") -Value $newReadmeEntry
