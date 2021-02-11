@@ -10,7 +10,7 @@
 
 // Time:  O(n)
 // Space: O(1)
-// Pattern: Reversal of a linked list
+// Pattern: In-place reversal of a linked list
 
 #include <Windows.h>
 
