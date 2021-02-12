@@ -1,5 +1,5 @@
-// Didn't find it on LeetCode
-// Binary Tree Path Sum
+// https://leetcode.com/problems/path-sum/
+// 112. Path Sum
 
 // Given a binary tree and a number 'S', find if the tree has a path from root-to-leaf such
 // that the sum of all the node values of that path equals 'S'.
@@ -60,7 +60,7 @@ struct TreeNode {
 // 9    10  5
 
                                                //  v 
-static bool hasPath(TreeNode* root, int sum) { // [12, 7, 1, 9, null, 10, 5], 23
+bool hasPath(TreeNode* root, int sum) { // [12, 7, 1, 9, null, 10, 5], 23
     if (!root)
         return false;
 

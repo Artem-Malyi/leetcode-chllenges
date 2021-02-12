@@ -131,7 +131,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "connect-all-level-order-sib
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "199-binary-tree-right-side-view", "..\src\199-binary-tree-right-side-view\199-binary-tree-right-side-view.vcxproj", "{42DD0003-ECF3-4127-8672-0DE9F0593047}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "binary-tree-path-sum", "..\src\binary-tree-path-sum\binary-tree-path-sum.vcxproj", "{A55D196F-2FF9-44C1-9FBC-ACF51C8C6609}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "112-path-sum", "..\src\112-path-sum\112-path-sum.vcxproj", "{A55D196F-2FF9-44C1-9FBC-ACF51C8C6609}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "257-binary-tree-paths", "..\src\257-binary-tree-paths\257-binary-tree-paths.vcxproj", "{0370B6D7-C74F-42A4-9BD7-D62BCFE1B28D}"
 EndProject
