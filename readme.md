@@ -67,3 +67,4 @@
 --- | Connect All Level Order Siblings | Medium | [Solution](src/connect-all-level-order-siblings/main.cpp)
 199 | Binary Tree Right Side View | Medium | [Solution](src/199-binary-tree-right-side-view/main.cpp)
 --- | Binary Tree Path Sum | Easy | [Solution](src/binary-tree-path-sum/main.cpp)
+257 | Binary Tree Paths | Easy | [Solution](src/257-binary-tree-paths/main.cpp)
