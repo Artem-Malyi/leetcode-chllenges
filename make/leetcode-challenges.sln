@@ -135,6 +135,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "112-path-sum", "..\src\112-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "257-binary-tree-paths", "..\src\257-binary-tree-paths\257-binary-tree-paths.vcxproj", "{0370B6D7-C74F-42A4-9BD7-D62BCFE1B28D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "113-path-sum-ii", "..\src\113-path-sum-ii\113-path-sum-ii.vcxproj", "{618880DF-35C5-4261-B9CC-EDEDD209AC4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -405,6 +407,10 @@ Global
 		{0370B6D7-C74F-42A4-9BD7-D62BCFE1B28D}.Debug|x64.Build.0 = Debug|x64
 		{0370B6D7-C74F-42A4-9BD7-D62BCFE1B28D}.Release|x64.ActiveCfg = Release|x64
 		{0370B6D7-C74F-42A4-9BD7-D62BCFE1B28D}.Release|x64.Build.0 = Release|x64
+		{618880DF-35C5-4261-B9CC-EDEDD209AC4A}.Debug|x64.ActiveCfg = Debug|x64
+		{618880DF-35C5-4261-B9CC-EDEDD209AC4A}.Debug|x64.Build.0 = Debug|x64
+		{618880DF-35C5-4261-B9CC-EDEDD209AC4A}.Release|x64.ActiveCfg = Release|x64
+		{618880DF-35C5-4261-B9CC-EDEDD209AC4A}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
