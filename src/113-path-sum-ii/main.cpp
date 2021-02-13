@@ -58,7 +58,7 @@ struct TreeNode {
     TreeNode(int x, TreeNode* left, TreeNode* right) : val(x), left(left), right(right) {}
 };
 
-vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
+vector<vector<int>> pathSumIterative(TreeNode* root, int targetSum) {
     if (!root)
         return {};
     vector<vector<int>> allPaths;
@@ -92,6 +92,33 @@ vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
     return allPaths; // --> [ [12, 7, 4], [12, 1, 10] ]
 }
 
+// allPaths: [[5, 4, 11, 2], [5, 8, 4, 5]]
+// targetSum: 22
+// currentPath: []
+//  v
+// [5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1], 22 ---> [[5, 4, 11, 2],[5, 8, 4, 5]]
+void pathSumRecursive(TreeNode* node, int targetSum, vector<int>& currentPath, vector<vector<int>>& allPaths) {
+    if (!node)
+        return;
+
+    currentPath.push_back(node->val);
+    if (!node->left && !node->right && targetSum == node->val) { // 5 == 1
+        allPaths.push_back(currentPath);
+    }
+
+    pathSumRecursive(node->left, targetSum - node->val, currentPath, allPaths);
+    pathSumRecursive(node->right, targetSum - node->val, currentPath, allPaths);
+
+    currentPath.pop_back();
+}
+
+vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
+    vector<vector<int>> allPaths;
+    vector<int> currentPath;
+    pathSumRecursive(root, targetSum, currentPath, allPaths);
+    return allPaths;
+}
+
 void testPathSum() {
     //    Input: root = [5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1], targetSum = 22
     //    Output: [[5, 4, 11, 2], [5, 8, 4, 5]]
@@ -106,8 +133,11 @@ void testPathSum() {
     root1->right->right->left = new TreeNode(5);
     root1->right->right->right = new TreeNode(1);
     vector<vector<int>> exp1 = { {5, 4, 11, 2}, {5, 8, 4, 5 } };
-    vector<vector<int>> res1 = pathSum(root1, 22);
+    vector<vector<int>> res1 = pathSumIterative(root1, 22);
     assert(equal(res1.begin(), res1.end(), exp1.begin()));
+
+    vector<vector<int>> res12 = pathSum(root1, 22);
+    assert(equal(res12.begin(), res12.end(), exp1.begin()));
 
     //    Input: root = [1, 2, 3], targetSum = 5
     //    Output: []
@@ -115,16 +145,22 @@ void testPathSum() {
     root2->left = new TreeNode(2);
     root2->right = new TreeNode(3);
     vector<vector<int>> exp2;
-    vector<vector<int>> res2 = pathSum(root2, 5);
+    vector<vector<int>> res2 = pathSumIterative(root2, 5);
     assert(equal(res2.begin(), res2.end(), exp2.begin()));
+
+    vector<vector<int>> res22 = pathSum(root2, 5);
+    assert(equal(res22.begin(), res22.end(), exp2.begin()));
 
     //    Input: root = [1, 2], targetSum = 0
     //    Output: []
     TreeNode* root3 = new TreeNode(1);
     root3->left = new TreeNode(2);
     vector<vector<int>> exp3;
-    vector<vector<int>> res3 = pathSum(root3, 0);
+    vector<vector<int>> res3 = pathSumIterative(root3, 0);
     assert(equal(res3.begin(), res3.end(), exp3.begin()));
+
+    vector<vector<int>> res32 = pathSumIterative(root3, 0);
+    assert(equal(res32.begin(), res32.end(), exp3.begin()));
 };
 
 int main() {
