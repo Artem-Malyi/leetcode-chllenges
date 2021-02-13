@@ -32,8 +32,8 @@
 //    - 1000 <= Node.val <= 1000
 //    - 1000 <= targetSum <= 1000
 
-// Time:  O(n)
-// Space: O(n)
+// Time:  O(nlogn)
+// Space: O(nlogn)
 // Pattern: Tree depth-first search
 
 #include <Windows.h>
@@ -48,6 +48,20 @@
 #include <vector>
 
 using namespace std;
+
+// Since, for binary trees, there exists only one path to reach any leaf node, we can easily say that total
+// root-to-leaf paths in a binary tree can't be more than the number of leaves. As we know that there can't
+// be more than (N + 1) / 2 leaves in a binary tree, therefore the maximum number of elements in allPaths
+// will be O((N + 1) / 2) = O(N). Now, each of these paths can have many nodes in them. For a balanced binary
+// tree (like above), each leaf node will be at maximum depth. As we know that the depth (or height) of a
+// balanced binary tree is O(logN) we can say that, at the most, each path can have logN nodes in it. This
+// means that the total size of the allPaths list will be O(N*logN). If the tree is not balanced, we will
+// still have the same worst-case space complexity.
+//
+// From the above discussion, we can conclude that our algorithm's overall space complexity is O(N*logN).
+//
+// Also, from the above discussion, since for each leaf node, in the worst case, we have to copy log(N) nodes
+// to store its path; therefore, the time complexity of our algorithm will also be O(N*logN).
 
 struct TreeNode {
     int val;
