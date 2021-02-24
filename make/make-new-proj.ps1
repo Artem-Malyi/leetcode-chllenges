@@ -6,7 +6,7 @@
 #
 param (
     [Parameter(Mandatory=$true)][string]$projectName,
-    [Parameter(Mandatory)][string]$link,
+    [Parameter(Mandatory=$true)][string][AllowEmptyString()]$link,
     [Parameter(Mandatory=$true)][string]$difficulty
 )
 
@@ -40,7 +40,7 @@ else {
 $folderName = if ($number.equals("---"))
   { $($name -replace " ", '-').ToLower() } else
   { $($number + "-" + $name -replace " ", '-').ToLower() }
-if([string]::IsNullOrWhiteSpace($link)) {
+if ([string]::IsNullOrEmpty($link)) {
    $link = "Didn't find it on LeetCode"
 }
 
